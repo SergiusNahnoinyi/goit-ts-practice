@@ -1,0 +1,24 @@
+{
+  "name": "goit-ts-practice",
+  "version": "1.0.0",
+  "description": "Курс TypeScript. \r 1. Початок. \r 2. Базові типи. \r 3. Компілятор. ООП. \r 4. Класи та інтерфейси. \r 5. Складні типи та generics. \r 6. Декоратори. \r 7. TypeScript та React. \r 8. TypeScript та Node.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergiusNahnoinyi/goit-ts-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergiusNahnoinyi/goit-ts-practice/issues"
+  },
+  "homepage": "https://github.com/SergiusNahnoinyi/goit-ts-practice#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
