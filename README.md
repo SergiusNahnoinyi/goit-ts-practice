@@ -1,2 +1,10 @@
 # goit-ts-practice
-Курс TypeScript. Початок. Базові типи. Компілятор. ООП. Класи та інтерфейси. Складні типи та generics. Декоратори. TypeScript та React. TypeScript та Node.
+Курс TypeScript. 
+1. Початок. 
+2. Базові типи. 
+3. Компілятор. ООП. 
+4. Класи та інтерфейси. 
+5. Складні типи та generics. 
+6. Декоратори. 
+7. TypeScript та React. 
+8. TypeScript та Node.
