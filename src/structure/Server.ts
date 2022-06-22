@@ -2,8 +2,8 @@ import "reflect-metadata";
 import express from "express";
 import { useExpressServer } from "routing-controllers";
 
-import { IService } from "../types/services";
-import { controllers } from "../app/domain";
+import { IService } from "types/services";
+import { controllers } from "app/domain";
 
 export class Server implements IService {
   private static instance: Server;
@@ -28,7 +28,7 @@ export class Server implements IService {
       defaultErrorHandler: true,
     });
 
-    return new Promise((resolve: any) => {
+    return new Promise<boolean>((resolve: any) => {
       server.listen(4000, () => {
         console.log("Server started on port 4000");
         return resolve(true);

@@ -1,5 +1,5 @@
-const controllers = <any>[];
+import userController from "./user/userContoller";
 
-export {
-  controllers,
-}
+const controllers = <any>[userController];
+
+export { controllers };

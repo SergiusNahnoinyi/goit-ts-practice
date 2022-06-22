@@ -1,5 +1,5 @@
 import { Server } from "./Server";
-import { IService } from "../types/services";
+import { IService } from "types/services";
 
 export class App implements IService {
   private static instance: App;
@@ -18,5 +18,6 @@ export class App implements IService {
 
     await server.init();
     console.log("App started");
+    return true;
   }
 }
